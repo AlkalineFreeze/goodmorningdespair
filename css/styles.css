@@ -1,0 +1,28 @@
+body {
+	background-color: #000;
+	font-family: 'Amatic SC', sans-serif;
+}
+
+.container {
+	margin: 42px;
+}
+
+h1 {
+	font-family: 'Creepster', sans-serif;
+	font-size: 3em;
+	color: #900;
+}
+
+p {
+	font-size: 2em;
+	color: #ddd;
+}
+
+button {
+	width: 84px;
+	height: 42px;
+	font-size: 1.5em;
+	font-family: 'Amatic SC', sans-serif;
+	border-radius: 10%;
+	background-color: #ccc;
+}
