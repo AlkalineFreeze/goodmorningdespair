@@ -38,7 +38,7 @@ p.caption {
 	z-index: 2;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-device-width: 500px) {
 	.container {
 		max-width: 200px;
 	}
