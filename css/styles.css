@@ -40,7 +40,7 @@ p.caption {
 	z-index: 2;
 }
 
-@media only screen and (max-device-width: 250px) {
+@media only screen and (max-device-width: 350px) {
 	h1, p.message {
 		font-size: 6em;
 	}
