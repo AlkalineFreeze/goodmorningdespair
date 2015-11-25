@@ -37,3 +37,12 @@ p.caption {
 	font-size: 1em;
 	z-index: 2;
 }
+
+@media (max-width: 500px) {
+	.container {
+		max-width: 200px;
+	}
+	p.message {
+		font-size: 5em;
+	}
+}
