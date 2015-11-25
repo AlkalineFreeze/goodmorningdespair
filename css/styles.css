@@ -13,7 +13,7 @@ h1 {
 	font-size: 4.5em;
 	letter-spacing: 0.05em;
 	color: #900;
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 }
 
 p {
@@ -28,5 +28,5 @@ button {
 	font-family: 'Amatic SC', sans-serif;
 	border-radius: 10%;
 	background-color: #ccc;
-	margin-top: 100px;
+	margin-top: 75px;
 }
