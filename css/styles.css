@@ -1,5 +1,5 @@
 body {
-	background-color: #000;
+	background-color: #111;
 	text-align: center;
 }
 
@@ -23,9 +23,11 @@ p {
 
 img {
 	z-index:0;
-	border-radius: 42%;
-	max-width: 150px;
+	border-radius: 110%;
+	width: 100px;
+	height: 100px;
 	margin-top: 50px;
+	border: 2px solid #333;
 }
 
 img:hover {
@@ -36,14 +38,4 @@ p.caption {
 	margin: 0;
 	font-size: 1em;
 	z-index: 2;
-}
-
-@media only screen and (max-device-width: 500px) {
-	.container {
-		max-width: 800px;
-	}
-
-	h1, p.message {
-		font-size: 6em;
-	}
 }
