@@ -42,7 +42,8 @@ p.caption {
 	.container {
 		max-width: 400px;
 	}
-	p.message {
-		font-size: 5em;
+
+	h1, p.message {
+		font-size: 6em;
 	}
 }
