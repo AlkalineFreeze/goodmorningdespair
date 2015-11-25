@@ -34,6 +34,7 @@ $(document).ready(function() {
 	}
 
 	speakWisdom();
+	$('.message').fadeIn("slow");
 
 	$('.generate').on('click', function() {
 		$('.message').fadeOut("slow");
