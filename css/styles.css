@@ -40,12 +40,17 @@ p.caption {
 	z-index: 2;
 }
 
-@media only screen and (max-device-width: 350px) {
+@media only screen and (max-device-width: 400px) {
 	h1, p.message {
 		font-size: 6em;
 	}
+
+	p.caption {
+		font-size: 3em;
+	}
+
 	img {
-		height: 25%;
-		width: 25%;
+		height: 200px;
+		width: 200px;
 	}
 }
