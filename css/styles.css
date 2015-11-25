@@ -24,8 +24,8 @@ p {
 img {
 	z-index:0;
 	border-radius: 110%;
-	width: 100px;
 	height: 100px;
+	width: 100px;
 	margin-top: 50px;
 	border: 2px solid #333;
 }
@@ -40,12 +40,12 @@ p.caption {
 	z-index: 2;
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 250px) {
 	h1, p.message {
 		font-size: 6em;
 	}
 	img {
-		min-height: 25%;
-		min-width: 25%;
+		height: 25%;
+		width: 25%;
 	}
 }
