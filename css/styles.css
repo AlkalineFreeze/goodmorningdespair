@@ -13,20 +13,23 @@ h1 {
 	letter-spacing: 0.05em;
 	color: #900;
 	margin-bottom: 75px;
+	position: relative;
+}
+
+.changes {
+	height: 13em;
 }
 
 p {
-	font-size: 3em;
+	font-size: 3.5em;
 	color: #ddd;
 	font-family: 'Amatic SC', sans-serif;
 }
 
 img {
-	z-index:0;
 	border-radius: 110%;
 	height: 100px;
 	width: 100px;
-	margin-top: 50px;
 	border: 2px solid #333;
 }
 
@@ -37,20 +40,14 @@ img:hover {
 p.caption {
 	margin: 0;
 	font-size: 1em;
-	z-index: 2;
 }
 
-@media only screen and (max-device-width: 400px) {
-	h1, p.message {
-		font-size: 6em;
-	}
+p.message {
+	display: none;
+}
 
-	p.caption {
-		font-size: 3em;
-	}
-
-	img {
-		height: 200px;
-		width: 200px;
+@media only screen and (max-width: 200px) {
+	.changes {
+		height: auto;
 	}
 }
