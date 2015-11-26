@@ -45,9 +45,3 @@ p.caption {
 p.message {
 	display: none;
 }
-
-@media only screen and (max-width: 200px) {
-	.changes {
-		height: auto;
-	}
-}
